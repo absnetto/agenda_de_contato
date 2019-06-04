@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     super.initState();
 
-/*    Contact c = Contact();
+/*    Contact c = Contact(); //teste
     c.name = "Antonio Neto";
     c.email = "abs.netto@gmail.com";
     c.phone = "14996627070";
