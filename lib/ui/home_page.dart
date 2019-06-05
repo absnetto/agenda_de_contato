@@ -7,25 +7,25 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-
-  ContactHelper helper = new ContactHelper();
-
+  ContactHelper helper = ContactHelper();
 
   @override
   void initState() {
     super.initState();
 
-/*    Contact c = Contact(); //teste
+    Contact c = Contact(); //teste
     c.name = "Antonio Neto";
     c.email = "abs.netto@gmail.com";
     c.phone = "14996627070";
     c.img = "imgteste";
-*/
-  //  helper.saveContact(c);
-    helper.getAllcontact().then((list){
+
+    helper.saveContact(c);
+    /*
+
+    helper.getAllcontact().then((list) {
       print(list);
     });
-
+    */
   }
 
   @override
